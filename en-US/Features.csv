@@ -377,13 +377,28 @@
 60716524,,New low-latency profile
 61391826,,New low-latency profile for application launch
 ????????,,"Function to install recommended apps directly through the Share flyout via Microsoft Store, gradually being made available to Azure Active Directory (AAD) users."
-59213768,,"The taskbar position (vertical taskbar) feature, missing since the initial release of Windows 11, has now been re-added and is being gradually rolled out. (26300.8493)"
-61090762,,"Added a compact taskbar with smaller icons and reduced height, which can be toggled in the Settings app under Personalization → Taskbar in the 'Show smaller taskbar buttons' dropdown menu. (26300.8493)"
-"61754985,61225604,61596616,61596617,61596618,61596619",,"In the Settings app's Start menu and the corresponding Personalization → Start page, added: (1. Renaming the 'Recommended' section to 'Recent'. 2. Adding section hierarchy toggle, to show or hide 'Pinned', 'Recommended', and 'All' individually. 3. Added a 'Start menu size' dropdown menu, allowing selection of small or large Start menu. 4. Added options to hide username and avatar. 5. If all Start menu sections are turned off, a new placeholder image appears.) (26300.8553)"
+59213768,,The taskbar position (vertical taskbar) feature, missing since the initial release of Windows 11, has now been re-added and is being gradually rolled out. (26300.8493)
+61090762,,Added a compact taskbar with smaller icons and reduced height, which can be toggled in the Settings app under Personalization → Taskbar in the ""Show smaller taskbar buttons"" dropdown menu. (26300.8493)
+"61754985,61225604,61596616,61596617,61596618,61596619",,"In the Settings app's Start menu and the corresponding Personalization → Start page, added: (1. Renaming the ""Recommended"" section to ""Recent"". 2. Adding section hierarchy toggle, to show or hide ""Pinned"", ""Recommended"", and ""All"" individually. 3. Added a ""Start menu size"" dropdown menu, allowing selection of small or large Start menu. 4. Added options to hide username and avatar. 5. If all Start menu sections are turned off, a new placeholder image appears.) (26300.8553)"
 61372722,,Fixes the issue of white flickering in File Open and Save As dialogs in Dark Mode.
-"61267302,61344081,61482515,61532758,61760679",,"The ability to toggle on/off suggested search results, such as web searches and Microsoft Store, has been added. This ability can be configured via the new "Show suggested search results" section under Privacy & security → Search in the Settings app. (26300.8697)"
-"61267302,61344081,61482515,61760679",,"Taskbar Search have a new look ,  Search Insight RIP (26300.8697)"
+61532758,,The ability to toggle on/off suggested search results, such as web searches and Microsoft Store, has been added. This ability can be configured via the new ""Show suggested search results"" section under Privacy & security → Search in the Settings app. (26300.8697)
+"61267302,61344081,61482515,61760679,62762248",,"Taskbar Search have a new look, Search Insight RIP (26300.8697)"
 60414189,,The height of the search box has been increased by 4 pixels. (26300.8772)
-60682493,,New Start Menu Phone Hover Notifications.(26300.9032)
-62236018,,New Search Scope Expansion Toggle.(26300.9032)
-61016435,,New Settings Search Improvements.(26300.9032)
+"60490208,61483244",,"The deleted files properties dialog has been refreshed with the WinUI3 framework in order to align with the design aesthetic of Windows 11. (26300.8935)"
+60682493,,New Start Menu Phone Hover Notifications. (26300.9032)
+62236018,,New Search Scope Expansion Toggle. (26300.9032)
+61016435,,New Settings Search Improvements. (26300.9032)
+62915050,,Start the app with the window maximized by default. (26340.9212)
+60813048,,Right Click Menu can Custom (Settings → Personalization → Context Menu) (26340.9212)
+62141177,,The AutoPlay dialog has been redesigned using WinUI framework, including dark mode support and more responsive to text scaling and display settings. (26340.9212)
+62068874,,Several new entry points have been added to the Home and Accounts pages for prompting users to set up Camera Roll Backup and automatically back up photos and videos. (26340.9212)
+63194003,,New Magnifier Toolbar Refresh. (26340.9212)
+60730253,,Revoke Camera and Microphone Access to Win32 Apps. (26340.9212)
+61456288,,The redesigned System → Storage → Temporary files page, previously implemented in build 26340.9354, has been gradually rolled out. (26340.9354)
+"62672833,62779962,62982927,63440737",,"When resuming a webpage from the phone and the phone's browser isn't installed on Windows, the Resume hover card will now show two options: open the page directly in the default browser or install the originating phone browser. (26340.9354)"
+"27829265,61457898",,"Modernized mouse indicator, along with a new mouse indicator option under Accessibility → Mouse pointer and touch → ""Mouse indicator"" in the Settings app. (26340.9233)"
+62103454,,A new ""Mobile devices"" section has been added to Quick Settings, which shows the device name and quick actions such as ""Link to Windows"", ""Do Not Disturb"" and ""Play sound"". (26340.9577)
+62932453,,The ability to show taskbar preview in a list view has been implemented, along with the new ""Show taskbar previews as"" dropdown menu under Personalization → Taskbar in the Settings app. (26340.9577)
+"59210767,59210771",,"The Windows Search flyout has been redesigned using the WinUI 3 framework. (requires enabling 57739723,58381341) (26340.9616)"
+60761441,,A new navigation bar has been added to the Gaming Task View experience in Xbox mode that provides quick access to exit to the desktop and power options. (26340.9750)
+61815311,,The address bar now supports tilde ~ to indicate the current user's home directory, similar to the behaviour on Unix-like operating systems (e.g., ~\AppData). (26340.9596)
